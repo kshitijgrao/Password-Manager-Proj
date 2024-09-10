@@ -40,3 +40,40 @@
 .read-the-docs {
   color: #888;
 }
+
+.action {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.buttons {
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+
+}
+
+.box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px auto; /* Center the box */
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  max-width: 400px; /* Set a maximum width */
+  width: 90%; /* Set a relative width */
+}
+
+.box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #333;
+}
